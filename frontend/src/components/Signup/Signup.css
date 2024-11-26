@@ -166,9 +166,10 @@ section .signup .signup-content .signupForm .signupInput input
 
   padding: 25px 10px 7.5px;
   border-radius: 4px;
-  color: #fff;
   font-weight: 500;
   font-size: 1em;
+  color: #aaa;
+
 }
 section .signup .signup-content .signupForm .signupInput i 
 {
