@@ -1,0 +1,94 @@
+.contactBtn {
+    font: 300 16px "Poppins";
+    border: 2px solid black;
+    padding: 0.5vmax 2vmax;
+
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    transition: all 0.5s;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.438);
+    position: absolute;
+    top: 35px;
+    right: 35px;
+    border-radius: 7px;
+}
+
+.menuBurger {
+    left:92vmax !important;
+    height: 3.5vmax;
+    width: 20px;
+    z-index: 1000;
+    top: 50px;
+    position: absolute;
+    
+}
+.contactBtn:hover {
+    color: black;
+    background-color: white;
+}
+
+
+@media screen and (max-width: 768px) {
+    .menuBurger {
+    left:88vmax !important;
+    height: 4vmax;
+    top: 44px;
+    
+}
+  }
+
+  
+@media screen and (max-width: 660px) {
+    .menuBurger {
+    left:78vmax !important;
+    height: 4vmax;
+    top: 44px;
+    
+}
+  }
+
+  @media screen and (max-width: 615px) {
+    .menuBurger {
+    left:70vmax !important;
+    height: 4vmax;
+    top: 44px;
+    
+}
+  }
+
+  @media screen and (max-width: 530px) {
+    .menuBurger {
+    left:60vmax !important;
+    height: 4vmax;
+    top: 44px;
+    
+}
+  }
+
+  @media screen and (max-width: 455px) {
+    .menuBurger {
+    left:50vmax !important;
+    height: 4vmax;
+    top: 44px;
+    
+}
+  }
+
+  @media screen and (max-width: 390px) {
+    .menuBurger {
+    left:40vmax !important;
+    height: 4vmax;
+    top: 44px;
+    
+}
+  }
+
+  @media screen and (max-width: 340px) {
+    .menuBurger {
+    left:35vmax !important;
+    height: 4vmax;
+    top: 44px;
+    
+}
+  }

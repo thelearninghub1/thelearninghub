@@ -1,0 +1,122 @@
+.footer {
+  background-color: #1a2a4b;
+  color: white;
+  z-index: 1000;
+  padding: 2rem;
+
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  z-index: 1000;
+  align-items: flex-start;
+
+}
+
+.footer-logo {
+  width: 25%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.footer-logo img {
+  max-width: 150px;
+}
+
+.footer-description {
+  width: 40%;
+  align-items: center;
+  justify-content: center;
+
+  display: flex;
+  
+}
+
+.footer-description p {
+  margin: 0;
+  font: 300 17px "Roboto";
+  line-height: 40px;
+}
+
+.footer-contact {
+  flex: 1;
+  margin: 0 1rem;
+  width: 35%;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  padding: 0 4vmax;
+}
+
+.footer-contact h3 {
+  margin-top: 0;
+  font: 800 23px "Roboto";
+}
+
+.footer-contact p {
+  margin: 0.5rem 0;
+  font: 300 16px "Roboto";
+
+}
+
+.footer-contact p a {
+  font: 300 16px "Roboto";
+  color: white;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+.footer-contact p a:hover {
+  color: tomato;
+  text-decoration: underline;
+}
+
+.social-icons {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.social-icons a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.social-icons a:hover {
+  color: tomato;
+}
+
+@media (max-width: 768px) {
+
+
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+
+   
+
+  }
+
+  .footer-logo {
+    width: 70%;
+  }
+
+  .footer-description, .footer-contact {
+    margin: 1rem 0;
+    text-align: center;
+    width: 70%;
+
+
+  }
+
+  .social-icons {
+    justify-content: center;
+
+  }
+}

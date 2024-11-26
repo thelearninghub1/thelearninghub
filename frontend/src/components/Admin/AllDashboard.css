@@ -1,0 +1,58 @@
+.maindashboard >div:last-child {
+    padding: 2vmax 4vmax;
+    box-sizing: border-box;
+}
+
+
+.productListContainer{
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #D9F1FF;
+    display: flex;
+    flex-direction: column;
+    min-height: 80vmin;
+    overflow: hidden;
+    margin-right: 3vmax !important;
+    border-radius: 16px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.11);
+  }
+  #productListHeading {
+    font: 200 1.2rem "Roboto";
+    padding: 2vmax;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.637);
+    transition: all 0.5s;
+    text-align: center;
+  }
+  
+  .productListTable{
+    border: none !important;
+  }
+  .productListTable  div {
+      
+    font: 300 1vmax "Roboto";
+    color: rgba(0, 0, 0, 0.678);
+    border: none !important;
+  }
+  
+  
+  .productListTable  a,
+  .productListTable  button {
+    color: rgba(0, 0, 0, 0.527);
+    transition: all 0.5s;
+  }
+  .productListTable a:hover {
+      color: green;
+    }
+    
+    .productListTable button:hover {
+      color: green;
+    }
+  
+    
+  @media screen and (max-width: 780px) {
+      .productListTable div {
+        font: 300 1.8vmax "Roboto";
+      }
+    }
+    

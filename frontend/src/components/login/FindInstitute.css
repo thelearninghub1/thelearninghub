@@ -1,0 +1,104 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Main Container */
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #102a43; /* Dark blue background */
+  }
+  
+  /* Card */
+  .login-card {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  /* Logo */
+  .logo {
+    margin-bottom: 1rem;
+  }
+  
+  .logo-image {
+    width: 80px;
+    height: auto;
+  }
+  
+  .login-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #334e68;
+    margin-top: 0.5rem;
+  }
+  
+  /* Input Group */
+  .input-group {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    border-bottom: 1px solid black;
+    margin: 0.5rem 0;
+  }
+  
+  .input-icon {
+    color: #334e68;
+  }
+  
+  /* Options */
+  .options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9rem;
+    color: #334e68;
+    margin: 0.5rem 0;
+    outline: none;
+  }
+  
+  .forgot-password {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .forgot-password:hover {
+    text-decoration: underline;
+  }
+  
+  /* Login Button */
+  .login-button {
+    font-size: 1rem;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .login-card {
+      padding: 1.5rem;
+    }
+  
+    .login-title {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .login-title {
+      font-size: 0.9rem;
+    }
+  
+    .login-button {
+      font-size: 0.9rem;
+      padding: 0.5rem;
+    }
+  }
+  
