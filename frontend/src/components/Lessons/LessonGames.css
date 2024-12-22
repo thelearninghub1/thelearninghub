@@ -1,0 +1,53 @@
+.games-detailsContainer {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 2vmax;
+}
+
+.games-detailsContainer > a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    box-sizing: border-box;
+    flex-direction: column;
+    border-radius: 16px;
+    flex: none;
+    margin: 1vmax;
+    transition: all 0.5s;
+    width: 250px ;
+    height: 250px ;
+    background-color: #E4F3FC;
+    padding: 1.5vmax;
+    box-shadow:  0 0 7px rgba(0, 0, 0, 0.251);
+}
+
+
+.games-detailsContainer > a > a {
+    font: 600 17px "Roboto", "Helvetica Neue";
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.788);
+    transition: all 0.5s;
+padding-top: 1.5vmax;    
+transition: all 0.5s;
+
+    text-transform: uppercase;
+}
+
+.games-detailsContainer > a > a:hover {
+    color: #0077BB;
+}
+
+.games-detailsContainer > a:hover {
+    transform: translateY(-1vmax);
+}
+
+
+
+
+
+
+

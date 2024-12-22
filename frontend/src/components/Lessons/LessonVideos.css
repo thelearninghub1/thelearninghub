@@ -1,0 +1,47 @@
+.videos-detailsContainer {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 2vmax;
+}
+
+.videos-detailsContainer > a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    flex-direction: column;
+    border-radius: 16px;
+    flex: none;
+    margin: 2vmax;
+    text-decoration: none;
+    transition: all 0.5s;
+    width: 250px ;
+    height: 250px ;
+    background-color: #E4F3FC;
+    text-align: center;
+    padding: 1.5vmax;
+    box-shadow:  0 0 7px rgba(0, 0, 0, 0.251);
+}
+
+
+.videos-detailsContainer > a > a {
+    font: 600 17px "Roboto", "Helvetica Neue";
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.788);
+    transition: all 0.5s;
+padding-top: 1.5vmax;    
+transition: all 0.5s;
+
+    text-transform: uppercase;
+}
+
+.videos-detailsContainer > a > a:hover {
+    color: #0077BB;
+}
+
+.videos-detailsContainer > a:hover {
+    transform: translateY(-1vmax);
+}

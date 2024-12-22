@@ -1,0 +1,169 @@
+.miniProfileContainer {
+    display: flex;
+    
+    align-items: center;
+    padding: 2vmax 2vmax ;
+    justify-content: space-between;
+    border-left: none;
+    box-sizing: border-box;
+    flex-direction: column;
+    text-align: left;
+
+}
+
+.myProfile {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100vmax;
+}
+
+.myProfile > h1 {
+    font: 1000 30px "Roboto";
+    letter-spacing: 0.1vmax;
+    word-spacing: 0.3vmax;
+    color: rgba(0, 0, 0, 0.806);
+    text-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
+    padding-bottom: 1vmax;
+}
+
+.myProfile > h4 {
+    font: 1000 20px cursive;
+    letter-spacing: 0.1vmax;
+    word-spacing: 0.3vmax;
+    color: rgba(0, 0, 0, 0.806);
+}
+
+.profileContainer{
+  display: flex;
+  width: 100vw;
+  min-height: 70vh;
+  background-color: white;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+.profileContainer > div {
+  margin: 2vmax;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.profileContainerFirst {
+  background-color: #D9F1FF;
+  border-radius: 17px ;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.233) ;
+  box-sizing: border-box;
+  width: 350px;
+  height: 550px;
+  text-align: center;
+}
+.profileContainerFirst > img {
+  width: 200px;
+  border-radius: 17px ;
+}
+.profileContainerFirst > h2 {
+  font: 600 23px "Roboto";
+  padding-top: 0.5vmax;
+  color: rgba(0, 0, 0, 0.804);
+}
+.profileContainerFirst > h3 {
+  font: 600 20px "Roboto";
+  padding-top: 0.5vmax;
+  color: rgba(0, 0, 0, 0.804);
+}
+.profileContainerFirst > p {
+  font: 500 18px "Roboto";
+  padding-top: 0.5vmax;
+  color: rgba(0, 0, 0, 0.604);
+}
+
+.profileContainerSecond {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  box-sizing: border-box;
+}
+.profileContainerSecondMini2 {
+  margin-top: 1vmax;
+}
+.profileContainerSecond > div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  box-shadow:  0 0 7px rgba(0, 0, 0, 0.33);
+  padding: 1vmax;
+  background-color: #f9cdc4a6;
+  border-radius: 17px ;
+
+}
+.profileContainerSecond > div > div {
+  display: flex;
+  border-top: 1px solid black;
+  padding: 0.5vmax 0vmax;
+}
+.profileContainerSecond > div > div > h4 {
+  font: 800 17px "Roboto";
+  color: rgba(0, 0, 0, 0.821);
+}
+.profileContainerSecond > div > div > p {
+  font: 600 17px "Roboto";
+  color: rgba(0, 0, 0, 0.621);
+  padding: 0vmax 1vmax;
+
+}
+
+.profileContainerSecond > div > h2 {
+  font: 600 23px "Roboto";
+  color: rgba(0, 0, 0, 0.821);
+  padding: 0.5vmax 0vmax;
+}
+
+@media screen and (max-width: 480px) {
+  .myProfile {
+    width: 40vmax;
+  } 
+}
+
+@media screen and (max-width: 1300px) {
+.profileContainerSecond {
+  width: 500px;
+}
+}
+@media screen and (max-width: 1000px) {
+  .profileContainerSecond {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .profileContainerSecond {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+.profileContainer {
+  flex-direction: column;
+}
+.profileContainerSecond {
+  width: 400px;
+}
+}
+@media screen and (max-width: 700px) {
+  .myProfile  {
+    margin: 2vmax auto;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .profileContainerSecond {
+    width: 300px;
+  }
+  .profileContainerFirst {
+    width: 300px;
+  }
+}
+
+

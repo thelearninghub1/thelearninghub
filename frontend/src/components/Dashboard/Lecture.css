@@ -1,0 +1,8 @@
+.lectureContainer {
+    display: flex;
+}
+
+.lectureContainer > img {
+    width: 80px;
+    padding: 1vmax;
+}

@@ -1,0 +1,119 @@
+.subVideoContainer {
+    display: flex;
+    box-sizing: border-box;
+
+}
+
+.subVideoContainer > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.subVideoContainer > div:first-child {
+    width: 70%;
+}
+
+.subVideoContainer > div:first-child > iframe {
+box-shadow: 0 0 6px rgba(0, 0, 0, 0.231);
+ width: 90%;
+ border-radius: 17px;
+  height: 60%;
+}
+.subVideoContainer > div:last-child {
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.subVideoContainer > div:first-child > h2 {
+    font: 600 27px "Roboto", "Helvetica Neue";
+    color: rgba(0, 0, 0, 0.788);
+    transition: all 0.5s;
+padding-top: 1.5vmax;    
+text-decoration: underline;
+transition: all 0.5s;
+text-transform: uppercase;
+}
+.subvideos-detailsContainer {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 2vmax;
+
+}
+
+.subvideos-detailsContainer > a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    box-sizing: border-box;
+    flex-direction: column;
+    border-radius: 16px;
+    flex: none;
+    margin:1vmax;
+    transition: all 0.5s;
+    width: 250px ;
+    height: 200px ;
+    background-color: #E4F3FC;
+    padding: 1.5vmax ;
+    box-shadow:  0 0 7px rgba(0, 0, 0, 0.251);
+}
+
+.subvideos-detailsContainer > a > a {
+    font: 600 15px "Roboto", "Helvetica Neue";
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.788);
+    transition: all 0.5s;
+padding-top: 1.5vmax;    
+transition: all 0.5s;
+
+    text-transform: uppercase;
+}
+
+.subvideos-detailsContainer > a > a:hover {
+    color: #0077BB;
+}
+
+.subvideos-detailsContainer > a:hover {
+    transform: translateY(-1vmax);
+}
+
+@media screen and (max-width: 1000px) {
+    .subVideoContainer  {
+        flex-direction: column;
+    }
+    .subVideoContainer  > div:first-child {
+        width: 100%;
+        min-height: 60vmin;
+        padding: 2vmax;
+    }
+        .subVideoContainer  > div:first-child > iframe {
+            height: 100%;
+        }
+        .subVideoContainer  > div:first-child > h2 {
+            font-size: 20px;
+        }
+
+            .subVideoContainer  > div:last-child {
+                width: 100%;
+            }
+
+}
+
+@media screen and (max-width: 630px) {
+    .subVideoContainer  > div:first-child {
+        min-height: 70vmin;
+
+    }
+
+            .subVideoContainer  > div:first-child > iframe {
+                height: 70vmin;
+            }
+}

@@ -1,0 +1,192 @@
+.socialmediaContainer {
+    background-color: #F3FBFF;
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    margin: 2vmax auto;
+    cursor: pointer;
+    border-radius: 17px;
+
+
+    box-shadow: 0 0  6px rgba(0, 0, 0, 0.192) ;
+
+}
+
+.carouselContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 2vmax;
+  box-sizing: border-box;
+  width: 50%;
+
+}
+.Carousel {
+  width: 50%;
+}
+.CarouselImage {
+  width: 100%;
+  height: 300px;
+  border-radius: 12px;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.167);
+
+}
+
+
+.socialmediaContainer > div {
+    display: flex;
+    width: 100%;
+    
+  
+}
+.socialMediaSubContainer1 {
+    justify-content: flex-start;
+    box-sizing: border-box;
+}
+.socialMediaSubContainer1 > div {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    padding: 0.5vmax;
+    justify-content: flex-start;
+}
+.socialMediaSubContainer1 > div > img {
+    width: 70px ;
+    height: 70px;
+    border-radius: 100%;
+}
+.socialMediaSubContainer1 > div > h3 {
+    font: 900 17px default ;
+    color: rgba(0, 0, 0, 0.92);
+}
+
+.socialMediaSubContainer1 > div > h4 {
+    color: rgba(0, 0, 0, 0.761);
+    padding-top: 0.2vmax;
+}
+
+.socialMediaSubContainer2 {
+  border-top: 1px solid rgba(0, 0, 0, 0.55);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.55);
+  padding: 1.5vmax;
+    font: 500 17px "Roboto";
+    color: rgba(0, 0, 0, 0.822);
+    padding-left: 0.5vmax;
+}
+
+.socialMediaSubContainer3 {
+    display: flex;
+    width: 100%;
+}
+.socialMediaSubContainer3 > div {
+    display: flex;
+    flex-direction: column;
+    padding: 1vmax;
+    padding-left: 0.5vmax;
+}
+.socialMediaSubContainer3 > div:first-child {
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 550px;
+    height: 550px;
+}
+
+.socialMediaSubContainer3 > div:first-child > img {
+    width: 525px;
+    height: 525px;
+    border-radius: 10px;
+
+}
+.socialMediaSubContainer3 > div:last-child > div > img {
+    width: 250px;
+    height: 250px;
+  
+}
+
+.socialMediaSubContainer3 > div:last-child > div {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 0.5vmax;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.619); /* Semi-transparent black */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  .overlay-text {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+  }
+
+
+  .socialMediaSubContainer4 {
+    border-top: 1px solid rgba(0, 0, 0, 0.55);
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0.5vmax 0vmax;
+  }
+  .socialMediaSubContainer4 > h3 {
+    text-align: center;
+    padding: 0.5vmax;
+  }
+  .socialMediaSubContainer4 > div {
+    border: 1px solid blue;
+    display: flex;
+    box-sizing: border-box;
+    padding: 0.5vmax 1.5vmax;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0.5vmax ;
+    text-align: center;
+  }
+  .socialMediaSubContainer4 > div > p {
+    font: 700 17px "Roboto";
+    padding:0  0.4vmax;
+    color: rgba(0, 0, 255, 0.83);
+  }
+
+  .socialMediaSubContainer4 > div > svg {
+    font-size: 23px;
+    fill: rgba(0, 0, 255, 0.726);
+
+  }
+
+  
+  .socialMediaSubContainer4 > div:last-child > img {
+    width: 23px;
+    border-radius: 100%;
+  }
+
+  .carouselContainer1 {
+    width: 1000px;
+  }
+
+ .Carousels  {
+  width: 90%;
+  box-sizing: border-box;
+ }
+ .CarouselImages {
+  width: 100%;
+  height: 600px;
+
+ }

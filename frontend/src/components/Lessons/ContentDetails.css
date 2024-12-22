@@ -1,0 +1,258 @@
+.content-p {
+    text-transform: uppercase;
+    padding: 0.75vmax;
+    font: 300 16px "Roboto";
+}
+
+.contentDetailsContainer {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.lesson-details1 {
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+
+    padding: 1vmax 0vmax;
+
+   
+}
+
+.lesson-details1 > a {
+    text-decoration: none;
+    background-color: #0077BB;
+    font: 400 17px "Roboto";
+    padding: 1vmax 2vmax;
+
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 1vmax;
+    background-color: #49974E;
+    color: white;
+    border-radius: 17px;
+    transition: all 0.5s;
+    transform: translateY(100vmax);
+    animation: categoryFilter  forwards ease-in-out 1.5s ;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.39);
+}
+
+.lesson-details1 > a:nth-child(1) {
+    background-color: #49974E;
+    margin-left: 0%;
+}
+
+.lesson-details1 > a:nth-child(2) {
+    background-color: #5271FF;
+}
+
+
+.lesson-details1 > a:nth-child(3) {
+    background-color: #FFBD59;
+}
+
+.lesson-details1 > a:nth-child(4) {
+    background-color: #8E62BB;
+}
+
+
+.lesson-details1 > a:hover {
+    background-image: linear-gradient(#0693E3, #0077BB );
+  
+  }
+
+
+  .lesson-details1 > a:nth-child(even){
+    transform: translateX(-100vmax);
+    animation: categoryFilter  forwards ease-in-out 1.5s;
+
+}
+
+@keyframes categoryFilter {
+    to {
+          transform: translateY(0vmax);
+      }
+  }
+
+
+.content-container {
+    min-height: 50vmin;
+    background-color: #C1E3F8;
+    border-radius: 20px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.22);
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    padding: 2vmax;
+    max-width: 80vmax;
+
+}
+
+.mylesson {
+    display: flex;
+    padding: 0vmax 1vmax;
+    border-left: 7px solid #346C94;
+    text-transform: uppercase;
+}
+
+.content-detailsContainer {
+    display: flex;
+    box-sizing: border-box;
+    padding: 2vmax;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+
+.content-detailsContainer > div {
+    background-color: #E4F3FC;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1vmax;
+    padding: 0.5vmax 1.5vmax;
+    border-radius: 17px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.162);
+    transition: all 0.5s;
+    width: 350px;
+
+
+}
+
+.content-detailsContainer > div > img , .content-pdfdownloadContainer > img {
+    width: 110px;
+    height: 110px;
+}
+
+.content-detailsContainer > div > a , .content-pdfdownloadContainer > a{
+    font: 800 19px "Roboto", "Helvetica Neue";
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.788);
+    transition: all 0.5s;
+}
+
+.content-detailsContainer > div > a:hover {
+    color: #0077BB;
+}
+
+.content-detailsContainer > div:hover {
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 400px) {
+
+    .content-detailsContainer > div {
+        flex-direction: column;
+    }
+}
+
+
+.content-content {
+    display: flex;
+
+}
+
+.content-content > div:first-child {
+    width: 70%;
+}
+
+.content-content > div:last-child {
+    width: 30%;
+}
+
+.content-pdfdownloadContainer {
+    background-color: #E4F3FC;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1vmax;
+    padding: 1vmax 2vmax;
+    border-radius: 17px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.162);
+    transition: all 0.5s;
+    width: 23vmax;
+    
+}
+
+
+.content-pdfdownloadContainer > img {
+    width:80px;
+    height: 80px;
+}
+
+.content-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #3082B1;
+    color: white;
+    border-radius: 37px ;
+    padding: 3vmax 1vmax;
+    text-align: center;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.276);
+}
+.content-card > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1vmax 0vmax;
+
+}
+
+.content-card > div > svg {
+    font-size: 55px;
+    padding: 0.5vmax;
+
+}
+.content-card > a {
+    padding: 0.5vmax 1.5vmax;
+    font: 600 14px "Roboto";
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.13);
+    border-radius: 17px ;
+    background-color: #FFFFFF;
+    color: rgba(0, 0, 0, 0.769);
+    cursor: pointer;
+    margin: 0.75vmax;
+    text-decoration: none;
+    transition: all 0.5s;
+  
+}
+
+.content-card > a:hover {
+  background-image: linear-gradient(#0693E3, #0077BB );
+
+}
+
+.content-card > h3 {
+    padding: 1vmax 0vmax;
+    color: #C1E3F8;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .content-content {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .content-content > div:first-child {
+        width: 100%;
+    }
+    .content-content > div:last-child {
+        width: 80% ;
+    }
+    .content-pdfdownloadContainer {
+        flex-direction: column;
+    }
+}
+
+.content-pdfdownloadContainer > a:hover {
+    color: #0077BB;
+}

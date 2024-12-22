@@ -1,0 +1,61 @@
+.dashboardCardContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    margin: 1vmax;
+    background-color: #49974E;
+    border-radius: 17px;
+    transition: all 0.5s;
+    transform: translateY(100vmax);
+    animation: categoryFilter  forwards ease-in-out 1.5s ;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.39);
+
+}
+.dashboardCardContainer:nth-child(even){
+    transform: translateX(-100vmax);
+    animation: categoryFilter  forwards ease-in-out 1.5s;
+
+}
+
+.dashboardCardContainer:nth-child(1) {
+    background-color: #49974E;
+}
+
+.dashboardCardContainer:nth-child(2) {
+    background-color: #5271FF;
+}
+
+
+.dashboardCardContainer:nth-child(3) {
+    background-color: #FFBD59;
+}
+
+.dashboardCardContainer:nth-child(4) {
+    background-color: #8E62BB;
+}
+.dashboardCardContainer:nth-child(5) {
+    background-color: #FF5757;
+}
+.dashboardCardContainer:nth-child(6) {
+    background-color: #FF914D;
+}
+
+
+.dashboardCardContainer > p {
+    padding: 13px 22px;
+    font-size: 17px;
+}
+
+.dashboardCardContainer:hover {
+  background-image: linear-gradient(#0693E3, #0077BB );
+
+}
+@keyframes categoryFilter {
+    to {
+          transform: translateY(0vmax);
+      }
+  }

@@ -1,0 +1,84 @@
+.MuiTreeItem-iconContainer {
+    width: 30px !important;
+}
+
+.MuiTreeItem-iconContainer > svg {
+    font-size: 30px !important;
+    color: white !important;
+}
+
+.MuiTreeItem-iconContainer > svg > path {
+    padding: 12vmax;
+}
+
+.sidebarMainContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  
+  .toggleContainerBtn {
+   margin-left: -45px !important;
+   z-index: 2;
+   cursor: pointer;
+  }
+  
+  .sidebarMainContainer > div:last-child > svg {
+    font-size: 45px;
+    color: white;
+    
+  }
+  .toggleBtnContainer > svg {
+    font-size: 32px;
+    color:white;
+    cursor: pointer;
+  }
+  
+  .sidebarr{
+    display: flex;
+    flex-direction: column;
+    padding: 7rem 0;
+    width: 130px ;
+    background-image: linear-gradient(#0693E3, #0077BB );
+    clip-path: polygon(0% 0%, 87% 18%, 88% 52%, 88% 78%, 0% 100%);
+    }
+  
+  
+    .sidebarr > a {
+        cursor: pointer;
+      text-decoration: none;
+      color: rgba(0, 0, 0, 0.493);
+      font: 200 5rem "Roboto";
+      padding: 1rem;
+      transition: all 0.5s;
+      color: white;
+      padding-right: 0px;
+  
+    }
+  
+  
+      .sidebarr a:hover {
+        color: #a18322;
+        transform: scale(1.1);
+      }  
+    
+      .sidebarr > a > p {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+      }
+      .sidebarr > a > p > svg {
+        margin-right: 0.5rem;
+        font-size: 30px;
+      }
+   
+  
+  
+      .open {
+        margin-left: -80px;
+        transition: all 0.5s;
+      }
+      .close {
+        transition: all 0.5s;
+      }

@@ -1,0 +1,144 @@
+.lessonDetailsContainer {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.lesson-details1 {
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+
+    padding: 1vmax 0vmax;
+
+   
+}
+
+.lesson-details1 > a {
+    text-decoration: none;
+    background-color: white;
+    color: rgba(0, 0, 0, 0.753);
+    font: 400 17px "Roboto";
+    padding: 1vmax 2vmax;
+
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 1vmax;
+    background-color: #49974E;
+    border-radius: 17px;
+    transition: all 0.5s;
+    transform: translateY(100vmax);
+    animation: categoryFilter  forwards ease-in-out 1.5s ;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.39);
+}
+
+.lesson-details1 > a:nth-child(1) {
+    background-color: #49974E;
+    margin-left: 0%;
+}
+
+.lesson-details1 > a:nth-child(2) {
+    background-color: #5271FF;
+}
+
+
+.lesson-details1 > a:nth-child(3) {
+    background-color: #FFBD59;
+}
+
+.lesson-details1 > a:nth-child(4) {
+    background-color: #8E62BB;
+}
+
+
+.lesson-details1 > a:hover {
+    background-image: linear-gradient(#0693E3, #0077BB );
+  
+  }
+
+
+  .lesson-details1 > a:nth-child(even){
+    transform: translateX(-100vmax);
+    animation: categoryFilter  forwards ease-in-out 1.5s;
+
+}
+
+@keyframes categoryFilter {
+    to {
+          transform: translateY(0vmax);
+      }
+  }
+
+
+.lesson-container {
+    min-height: 40vmin;
+    background-color: #C1E3F8;
+    border-radius: 20px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.22);
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    padding: 2vmax;
+    max-width: 80vmax;
+}
+
+.mylesson {
+    display: flex;
+    padding: 0vmax 1vmax;
+    border-left: 7px solid #346C94;
+}
+
+.lesson-detailsContainer {
+    display: flex;
+    box-sizing: border-box;
+    padding: 2vmax;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+
+.lesson-detailsContainer > div {
+    background-color: #E4F3FC;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2vmax;
+    padding: 0.5vmax 2vmax;
+    border-radius: 17px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.162);
+    transition: all 0.5s;
+    width: 450px;
+
+
+}
+
+.lesson-detailsContainer > div > img {
+    width: 120px;
+    height: 120px;
+}
+
+.lesson-detailsContainer > div > a {
+    font: 800 21px "Roboto", "Helvetica Neue";
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.788);
+    transition: all 0.5s;
+}
+
+.lesson-detailsContainer > div > a:hover {
+    color: #0077BB;
+}
+
+.lesson-detailsContainer > div:hover {
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 400px) {
+    .lesson-detailsContainer > div {
+        flex-direction: column;
+    }
+}
