@@ -1,7 +1,7 @@
 const catchAsyncErrors = require('../middlewares/catchAsyncErrors');
 const Highlight = require('../models/highlights');
-const ErrorHandler = require('../utils/errorHandler');
 const cloudinary = require('cloudinary');
+const ErrorHandler = require("../utils/errorhandler");
 
 // Create Highlights  -- Super Admin
 exports.createHighlights = catchAsyncErrors(async (req,res,next) => {
